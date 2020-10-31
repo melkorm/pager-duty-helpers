@@ -10,10 +10,10 @@ import (
 )
 
 func init() {
-	rootCmd.AddCommand(cmdPrint)
+	rootCmd.AddCommand(cmdOncall)
 }
 
-var cmdPrint = &cobra.Command{
+var cmdOncall = &cobra.Command{
 	Use:   "oncall",
 	Short: "Display current oncall",
 	Run: func(cmd *cobra.Command, args []string) {
