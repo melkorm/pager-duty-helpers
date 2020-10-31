@@ -1,2 +1,3 @@
-# pager-duty-helpers
+# pagerduty helpers
+
 PagerDuty CLI with useful commands
